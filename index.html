@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Chat AI - Advanced AI Chat Experience</title>   
+    <link rel="icon" href="./assets/codefomo.png"image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <span class="ai-icon"><i class="fas fa-robot"></i></span>
+                    <h1>CF Chat AI</h1>
+                </div>
+                
+                <div class="navbar-menu" id="navbarMenu">
+                    <ul class="navbar-links">
+                        <li><a href="#features"><i class="fas fa-star"></i> Features</a></li>
+                        <li><a href="#how-it-works"><i class="fas fa-cogs"></i> How It Works</a></li>
+                        <li><a href="#pricing"><i class="fas fa-tag"></i> Pricing</a></li>
+                        <li><a href="chat.html" class="btn btn-primary btn-nav"><i class="fas fa-comment-dots"></i> Try Now</a></li>
+                    </ul>
+                </div>
+                
+                <button class="navbar-toggler" id="navbarToggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background"></div> 
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience the Future of <span>AI Conversations</span></h1>
+                <p class="subtitle">CF Chat AI brings you the most advanced conversational AI with natural language understanding and code formatting capabilities.</p>
+                <div class="hero-buttons">
+                    <a href="chat.html" class="btn btn-primary">
+                        <i class="fas fa-comment-dots"></i> Start Chatting
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-star"></i> See Features
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="chat-bubble">
+                    <div class="message ai-message">
+                        <div class="typing-animation">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="message user-message">
+                        <p>How can I implement a neural network in Python?</p>
+                    </div>
+                    <div class="message ai-message code-message">
+                        <pre><code>import tensorflow as tf
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(64, activation='relu'),
+    tf.keras.layers.Dense(10)
+])</code></pre>
+                        <button class="copy-btn"><i class="far fa-copy"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Code Formatting</h3>
+                    <p>Automatically detects and formats code snippets with syntax highlighting and copy functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Responses</h3>
+                    <p>Get quick and accurate answers powered by Claude Sonnet 3.5 AI model.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Works seamlessly on all devices from desktop to mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>Chat History</h3>
+                    <p>Your conversation history is saved for easy reference.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Start a Conversation</h3>
+                    <p>Type your question or message in the chat interface.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Processing</h3>
+                    <p>Our AI analyzes your input and generates a response.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Your Answer</h3>
+                    <p>Receive a formatted, easy-to-understand response.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Simple Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul>
+                        <li>10 messages per day</li>
+                        <li>Basic AI responses</li>
+                        <li>Code formatting</li>
+                    </ul>
+                    <a href="chat.html" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$9<span>/month</span></div>
+                    <ul>
+                        <li>Unlimited messages</li>
+                        <li>Priority responses</li>
+                        <li>Advanced code support</li>
+                        <li>Chat history</li>
+                    </ul>
+                    <a href="chat.html" class="btn btn-primary">Upgrade Now</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul>
+                        <li>Custom message limits</li>
+                        <li>API access</li>
+                        <li>Dedicated support</li>
+                        <li>White-label options</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="ai-icon"><i class="fas fa-robot"></i></span>
+                    <h2>CF Chat AI</h2>
+                    <p>The future of AI conversations</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Product</h3>
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="chat.html">Demo</a>
+                    </div>
+                    <div class="link-group">
+                        <h3>Company</h3>
+                        <a href="#about">About</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#careers">Careers</a>
+                    </div>
+                    <div class="link-group">
+                        <h3>Support</h3>
+                        <a href="#help">Help Center</a>
+                        <a href="#privacy">Privacy</a>
+                        <a href="#terms">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CF Chat AI. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

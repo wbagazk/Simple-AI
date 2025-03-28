@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Chat AI - Chat Interface</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="ai-icon"><i class="fas fa-robot"></i></span>
+                    <h2>CF Chat AI</h2>
+                </div>
+                <button class="new-chat-btn">
+                    <i class="fas fa-plus"></i> New Chat
+                </button>
+            </div>
+            <div class="chat-history">
+                <div class="history-item active">
+                    <i class="fas fa-comment"></i>
+                    <span>Mulai Mengobrol</span>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <span class="username">User</span>
+                </div>
+                <button class="settings-btn">
+                    <i class="fas fa-cog"></i>
+                </button>
+            </div>
+        </div>
+        <div class="chat-main">
+            <div class="chat-header">
+                <h3>CF Chat AI</h3>
+                <div class="header-actions">
+                    <button class="clear-chat-btn">
+                        <i class="fas fa-trash"></i> Clear Chat
+                    </button>
+                </div>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message ai-message">
+                    <div class="avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hai! Saya CF Chat AI. Ada yang bisa saya bantu?</p>
+                    </div>
+                </div>
+                <!-- More messages will be added here dynamically -->
+            </div>
+            <div class="chat-input-container">
+                <div class="input-actions">
+                    <button class="attach-btn"><i class="fas fa-paperclip"></i></button>
+                </div>
+                <div class="message-input-wrapper">
+                    <textarea id="message-input" placeholder="Type your message here..." rows="1"></textarea>
+                    <button id="send-btn" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="input-footer">
+                    <p>CF Chat AI may produce inaccurate information. Consider verifying important details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add this modal at the bottom of the body -->
+<div id="preview-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Code Preview</h3>
+            <button class="close-modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <iframe id="preview-frame" sandbox="allow-scripts"></iframe>
+        </div>
+    </div>
+</div>
+<!-- Add this modal at the bottom of the body -->
+<div id="preview-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Code Preview</h3>
+            <button class="close-modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <iframe id="preview-frame" sandbox="allow-scripts"></iframe>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
