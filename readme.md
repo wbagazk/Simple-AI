@@ -2,7 +2,7 @@
 **Website Chat AI Modern dengan Fitur Gokil**  
 
 ![Preview CF Chat AI](./assets/web.png)
-*[🔥 Live Demo](https://yoshcasaster.github.io/Web-ai-sederhana/)*  
+*[🔥 Live Demo](https://ai.wbagazk.my.id/)*  
 
 ---
 
@@ -29,7 +29,7 @@ Buat yang suka coding, ngerjain tugas, atau cuma mau ngetes AI, ini tools cocok 
 ### **📥 Install**  
 1. **Clone repo ini**  
    ```bash
-   git clone https://github.com/YoshCasaster/Web-ai-sederhana.git
+   git clone https://github.com/wbagazk/Web-ai-sederhana.git
    ```
 2. **Buka folder project**  
    ```bash
